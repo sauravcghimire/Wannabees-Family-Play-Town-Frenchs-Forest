@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CC000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:letterSpacing="0.03"
+            android:lineSpacingExtra="2dp"
+            android:padding="64dp"
+            android:text="Wannabees Family Play Town | Frenchs Forest"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_action_address"
+            android:drawablePadding="8dp"
+            android:letterSpacing="0.03"
+            android:padding="24dp"
+            android:text="@string/address"
+            android:textColor="#fff" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_action_phone"
+            android:drawablePadding="8dp"
+            android:letterSpacing="0.03"
+            android:padding="24dp"
+            android:text="@string/phone"
+            android:textColor="#fff" />
+
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_action_wesite"
+            android:drawablePadding="8dp"
+            android:letterSpacing="0.03"
+            android:padding="24dp"
+            android:text="@string/website"
+            android:textColor="#fff" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/tv_opening_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Opening Hours"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:layout_margin="64dp"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
